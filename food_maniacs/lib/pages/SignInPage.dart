@@ -160,7 +160,7 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                     InkWell(
                       onTap: () => {
-                      Navigator.push(context, ScaleRoute(page: SignUpPage()))
+                        Navigator.push(context, ScaleRoute(page: SignUpPage()))
                       },
                       child: Container(
                         child: Text(
