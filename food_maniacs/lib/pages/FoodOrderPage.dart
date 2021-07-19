@@ -47,6 +47,7 @@ class _FoodOrderPageState extends State<FoodOrderPage> {
                   padding: EdgeInsets.only(left: 5),
                   child: Text(
                     "Your Food Cart",
+
                     style: TextStyle(
                         fontSize: 20,
                         color: Color(0xFF3a3a3b),
@@ -160,6 +161,7 @@ class TotalCalculationWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
+
       width: double.infinity,
       height: 150,
       decoration: BoxDecoration(boxShadow: [
@@ -192,6 +194,7 @@ class TotalCalculationWidget extends StatelessWidget {
                   Text(
                     "Grilled Salmon",
                     style: TextStyle(
+
                         fontSize: 18,
                         color: Color(0xFF3a3a3b),
                         fontWeight: FontWeight.w400),
@@ -271,6 +274,7 @@ class PromoCodeWidget extends StatelessWidget {
         padding: EdgeInsets.only(left: 3, right: 3),
         decoration: BoxDecoration(boxShadow: [
           BoxShadow(
+
             color: Color(0xFFfae3e2).withOpacity(0.1),
             spreadRadius: 1,
             blurRadius: 1,
@@ -328,6 +332,7 @@ class CartItem extends StatelessWidget {
           blurRadius: 1,
           offset: Offset(0, 1),
         ),
+
       ]),
       child: Card(
           color: Colors.white,
