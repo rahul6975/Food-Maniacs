@@ -97,6 +97,7 @@ class _FoodOrderPageState extends State<FoodOrderPage> {
                 SizedBox(
                   height: 10,
                 ),
+
                 PaymentMethodWidget(),
               ],
             ),
@@ -116,6 +117,7 @@ class PaymentMethodWidget extends StatelessWidget {
         BoxShadow(
           color: Color(0xFFfae3e2).withOpacity(0.1),
           spreadRadius: 1,
+
           blurRadius: 1,
           offset: Offset(0, 1),
         ),
