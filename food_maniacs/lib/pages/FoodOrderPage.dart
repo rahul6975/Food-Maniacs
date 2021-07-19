@@ -14,6 +14,7 @@ class _FoodOrderPageState extends State<FoodOrderPage> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color(0xFFFAFAFA),
+
           elevation: 0,
           leading: IconButton(
             icon: Icon(
