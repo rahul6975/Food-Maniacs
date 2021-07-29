@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_app/pages/SignInPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:food_maniacs/animation/ScaleRoute.dart';
+
+import 'SignInPage.dart';
 
 class SignUpPage extends StatelessWidget {
   @override
