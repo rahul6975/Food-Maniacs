@@ -128,13 +128,13 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                   ),
                   SizedBox(
-                    height: 15,
+                    height: 5,
                   ),
                   SignInButtonWidget(),
                   SizedBox(
                     height: 2,
                   ),
-                  FacebookGoogleLogin()
+
                 ],
               ),
             ),
@@ -233,7 +233,7 @@ class FacebookGoogleLogin extends StatelessWidget {
         child: Column(
       children: <Widget>[
         Padding(
-          padding: EdgeInsets.only(top: 10.0),
+          padding: EdgeInsets.only(top: 1.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[

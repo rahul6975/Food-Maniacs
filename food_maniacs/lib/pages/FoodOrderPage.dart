@@ -147,7 +147,7 @@ class PaymentMethodWidget extends StatelessWidget {
                 "Credit/Debit Card",
                 style: TextStyle(
                     fontSize: 16,
-                    color: Color(0xFF3a3a3b),
+                    color: Color(0xff3a3a3b),
                     fontWeight: FontWeight.w400),
                 textAlign: TextAlign.left,
               )
@@ -490,7 +490,7 @@ class AddToCartMenu extends StatelessWidget {
           InkWell(
             onTap: () => print('hello'),
             child: Container(
-              width: 100.0,
+              width: 70.0,
               height: 35.0,
               decoration: BoxDecoration(
                 color: Color(0xFFfd2c2c),
