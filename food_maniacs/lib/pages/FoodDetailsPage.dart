@@ -96,7 +96,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
                 ),
               ),
               Container(
-                height: 150,
+                height: 30,
                 child: TabBarView(
                   children: [
                     Container(
@@ -323,7 +323,7 @@ class DetailContentMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Text(
-        'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et Malorum for use in a type specimen book.',
+        'The nutrition data for this recipe includes information for the full amount of the marinade ingredients. Depending on marinating time, ingredients, cooking method, etc., the actual amount of the marinade consumed will vary.',
         style: TextStyle(
             fontSize: 14.0,
             color: Colors.black87,

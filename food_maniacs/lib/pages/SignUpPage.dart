@@ -190,7 +190,7 @@ class SignUpPage extends StatelessWidget {
                   SizedBox(
                     height: 10,
                   ),
-                  FacebookGoogleLogin()
+                  // FacebookGoogleLogin()
                 ],
               ),
             ),
