@@ -76,7 +76,7 @@ class BestFoodTiles extends StatelessWidget {
                 blurRadius: 15.0,
                 offset: Offset(0, 0.75),
               ),*/
-            ]),
+            ],),
             child: Card(
               semanticContainer: true,
               clipBehavior: Clip.antiAliasWithSaveLayer,

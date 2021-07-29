@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter_app/pages/FoodDetailsPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:food_maniacs/animation/ScaleRoute.dart';
-import 'package:food_maniacs/pages/SignUpPage.dart';
+
+import 'SignUpPage.dart';
 
 class SignInPage extends StatefulWidget {
   @override
@@ -29,7 +28,6 @@ class _SignInPageState extends State<SignInPage> {
               flex: 1,
               child: InkWell(
                 child: Container(
-
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Icon(Icons.close),

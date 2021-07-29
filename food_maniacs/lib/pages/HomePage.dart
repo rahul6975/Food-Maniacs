@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:food_maniacs/animation/ScaleRoute.dart';
-import 'package:food_maniacs/pages/SignInPage.dart';
+import 'package:food_maniacs/widgets/BestFoodWidget.dart';
+import 'package:food_maniacs/widgets/BottomNavBarWidget.dart';
+import 'package:food_maniacs/widgets/PopularFoodsWidget.dart';
+import 'package:food_maniacs/widgets/SearchWidget.dart';
+import 'package:food_maniacs/widgets/TopMenus.dart';
+
+import 'SignInPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
